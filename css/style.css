@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after{
+	margin:0;
+	padding:0%;
+	box-sizing: border-box;
+}
+html{
+	font-size:62.5%;
+	
+	font-family: 'Poppins', sans-serif;
+
+}
+body{
+	background-color:#cccaca ;
+	
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+	width: 100%;}
+.main_div{
+	height: 100vh;
+	width: 100%;
+	display:grid;
+	place-items: center;
+	
+
+	}
+.music_container{
+		width:37rem;
+		height:60rem;
+		
+		border-radius: 2rem;
+		padding: 3rem;
+		background-image: url("../images/ncs2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		border:1rem solid black;
+		
+		border-bottom:5rem solid black;
+	
+	
+		background-position: center;
+		
+		
+		text-align: center;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.52); 
+	
+	}
+
+	
+		
+	   
+	#volume-container{
+		
+		
+		width: 100%;
+		height: auto;
+		
+		
+		display: flex;
+		justify-content: space-evenly;
+		align-items:initial;
+	}
+	#vol-down{
+		color:white;
+		font-size: 2rem;
+		cursor: pointer;
+		filter:drop-shadow(0 1.2rem 0.5rem rgba(0,0,0,0.4));
+
+	}
+	#vol-up{
+		color:white;
+		font-size: 1.5rem;
+		cursor: pointer;
+		filter:drop-shadow(0 1.2rem 0.5rem rgba(0,0,0,0.4));
+
+
+	}
+#playlist_title{
+	
+
+	
+	 
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		line-height: 0.2rem;
+		padding-bottom: 2rem;
+		display: inline;
+		color:white;
+		font-size:2.5rem;
+		text-shadow: 0 0 0.3rem rgba(0,0,0,0.3);
+
+
+	}
+#playlist_artist{
+
+		color:#cccaca;
+    text-transform: capitalize;
+	  font-size: 2rem;
+	
+	  
+     letter-spacing: 0.3rem;
+      font-weight: 300;
+
+	}
+	 #menu{
+	
+		z-index: 3;
+		padding: 15px 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+	#menu img{
+		width: 15px;
+		height: 15px;
+		cursor: pointer;
+	} 
+.music-image{
+	
+		width:25rem;
+		height:25rem;
+		margin:auto;
+	}
+.bgImage{
+	border:1rem groove yellow;
+		object-fit: cover;
+		width:70%;
+		height: 70%;
+		border-radius: 50%;
+		box-shadow: 0 1.2rem 3rem 0.5rem rgb(199, 181, 181,0.3);
+	}
+.slider{
+	
+	height: 2px !important;
+	-webkit-appearance:none;
+	
+	background-color: #fff;
+	  
+	outline: none;
+	position: relative;
+	}
+	.slider::-webkit-slider-thumb{
+		-webkit-appearance: none;
+		width: 10px;
+		height: 10px;
+		background-color: #e62c2f;
+		border-radius: 50%;
+		cursor: pointer;
+		outline: none;
+		transform: scale(1);
+	}
+	.slider:active::-webkit-slider-thumb{ 
+		transform: scale(1.2);
+	}
+	
+.music_controls{
+		width:20rem;
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+	
+		margin: auto;
+		
+	}
+.music_controls .fas{
+		color:#fff;
+		font-size: 2rem;
+		cursor: pointer;
+		filter:drop-shadow(0 1.2rem 0.5rem rgba(0,0,0,0.4));
+	}
+.music_controls .fas:hover{
+		color:gray;
+		transform: scale(1.5);
+	}
+	
+	#heart{
+		color:#fff;
+		font-size: 2rem;
+
+
+	}
+	
+	
+.music_controls #play{
+		border-radius:50%;
+		background-color: gray;
+		width:4rem;
+		
+		height: 4rem;
+		color:white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		font-size: 1.2rem;
+	}
+.music_controls #play:hover{
+		background-color: red;
+		
+		box-shadow: 0 1rem 0.2rem rgba(0, 0, 0, 0.52);
+	}
+
+
+	 .anime{-webkit-animation:heartbeat 1.5s ease-in-out infinite both;
+		animation: heartbeat 1.5s ease-in-out infinite both;
+	}
+
+
+@-webkit-keyframes heartbeat{
+	from{-webkit-transform:scale(1);
+		transform:scale(1);
+		-webkit-transform-origin:center center;
+		transform-origin:center center;-webkit-animation-timing-function:ease-out;
+		animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);
+		-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}
+		17%{
+		-webkit-transform:scale(.98);
+		transform:scale(.98);
+		-webkit-animation-timing-function:ease-out;
+		animation-timing-function:ease-out}
+		33%{-webkit-transform:scale(.87);transform:scale(.87);
+		-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}
+		45%{-webkit-transform:scale(1);transform:scale(1);
+		-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+@keyframes heartbeat{
+	from{
+		-webkit-transform:scale(1);
+		transform:scale(1);
+        -webkit-transform-origin:center center;transform-origin:center center;
+        -webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}
+        10%{
+        -webkit-transform:scale(.91);
+        transform:scale(.91);
+        -webkit-animation-timing-function:ease-in;
+	     animation-timing-function:ease-in}
+        17%{
+		-webkit-transform:scale(.98);transform:scale(.98);
+		-webkit-animation-timing-function:ease-out;
+		animation-timing-function:ease-out}
+	33%{
+						-webkit-transform:scale(.87);transform:scale(.87);
+		-webkit-animation-timing-function:ease-in;
+						animation-timing-function:ease-in}
+	45%{
+		-webkit-transform:scale(1);transform:scale(1);
+		-webkit-animation-timing-function:ease-out;
+		animation-timing-function:ease-out}} 
+
+/* progress style*/
+.progressbar_container{
+	width:100%;
+	height:auto;
+	padding:1rem 0;
+	margin-top: 2rem;
+}
+.progress_div{
+	width:100%;
+	height:0.5rem;
+	cursor: pointer;
+	box-shadow:0 1rem 0.2rem rgba(0, 0, 0, 0.52); ;
+   
+
+
+	border-radius: 4rem;
+	
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	
+	background-color:white;
+
+}
+.progress{
+	position:absolute;
+	top:0;
+	left:0;
+	width:0%;
+	height:100%;
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.07) ,
+	 0 2px 4px rgba(0, 0, 0, 0.07) ,
+	 0 4px 8px rgba(0, 0, 0, 0.07) ,
+	0 8px 16px rgba(0, 0, 0, 0.07) ,
+	0 16px 32px rgba(0, 0, 0, 0.07) ,
+	0 32px 64px rgba(0, 0, 0, 0.07) ;
+background-color: red;
+	
+	border-radius: 4rem;
+	
+	-webkit-appearance: none;
+	appearance: none;
+
+	cursor: pointer;
+
+
+	
+
+}
+
+.progress_meter{
+	color:white;
+	font-weight:500;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+
