@@ -4,7 +4,7 @@
 ##  Created by `Muskan` <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 
-> ### **Live deployed website link** :-[Netlify link](https://flashcardinfo.netlify.app/)
+> ### **Live deployed website link** :-[Netlify link](https://music-player-git-main-muskan-creator.vercel.app/)
 <br>
 <span>
 <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
@@ -15,16 +15,12 @@
 </span>
 
 ##  How website looks like
-<img src ="https://user-images.githubusercontent.com/59757988/211207983-d4b8d230-c033-4630-b21f-0992785c6cfd.png">
+<img src ="https://user-images.githubusercontent.com/59757988/211207983-d4b8d230-c033-4630-b21f-0992785c6cfd.png" width="200">
 
 
 
 
-
-
-
-
-## This project took around 4 hours to complete .
+## This project took around 6 hours to complete .
 
 ## Connect with me on :-
 <a href="https://twitter.com/Muskan11548907?s=08" target="_blank">
